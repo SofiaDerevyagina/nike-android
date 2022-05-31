@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity2">
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/background" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="97dp"
+        android:layout_height="66dp"
+        app:srcCompat="@drawable/logo"
+        tools:layout_editor_absoluteX="25dp"
+        tools:layout_editor_absoluteY="165dp" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="265dp"
+        android:layout_height="160dp"
+        android:backgroundTint="#F3F2F2"
+        android:text="Приложение Nike \nЧлены клуба Nike получают доступ к лучшим продуктам, \n источникам \n вдохновения \n и историям из \n мира спорта."
+        android:textColor="#FDFDFD"
+        android:textSize="48px"
+        tools:layout_editor_absoluteX="25dp"
+        tools:layout_editor_absoluteY="294dp" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#FFFCFC"
+        android:backgroundTint="#F8F5F5"
+        android:text="Давай с нами"
+        android:textColor="#020000"
+        android:radius="50dp"
+        tools:background="#FFFFFF"
+        tools:backgroundTint="#F3E8E8"
+        tools:layout_editor_absoluteX="25dp"
+        tools:layout_editor_absoluteY="509dp" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#00FFFFFF"
+        android:backgroundTint="#EDEDED"
+        android:text="Вход"
+        tools:layout_editor_absoluteX="202dp"
+        tools:layout_editor_absoluteY="509dp"
+        tools:textColorHint="#F4F2F2" />
+</androidx.constraintlayout.widget.ConstraintLayout>
